@@ -12,13 +12,15 @@ Syntax: check_status [html|csv|json]
 Default: check_status html
 Context: location
 ```
-直接访问 ip/stat 就是json，也可以配置上不指定，url上指定 格式为
-/status?format=html
-/status?format=csv
-/status?format=json
-也可以加上状态
-/status?format=html&status=down
-/status?format=csv&status=up
+直接访问 ip/stat 就是json，也可以配置上不指定，url上指定 格式为  
+> /status?format=html  
+/status?format=csv  
+/status?format=json  
+
+
+也可以加上状态    
+>/status?format=html&status=down  
+/status?format=csv&status=up  
 
 参考地址：https://www.cnblogs.com/rainy-shurun/p/5416160.html  
 ```
