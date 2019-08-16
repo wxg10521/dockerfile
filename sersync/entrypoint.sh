@@ -17,6 +17,7 @@ cat << ENDOF >> /etc/rsync.conf
 comment = Mirror to test
 ignore errors = yes
 use chroot = no
+munge symlinks = no
 read only = no
 ENDOF
 }
